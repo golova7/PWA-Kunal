@@ -1,0 +1,102 @@
+{
+  "name": "aeroland",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "npx vue-cli-service serve",
+    "start": "npx vue-cli-service serve",
+    "build": "npx vue-cli-service build",
+    "lint": "npx vue-cli-service lint"
+  },
+  "dependencies": {
+    "@progress/kendo-inputs-vue-wrapper": "^2021.3.914",
+    "@uppy/core": "^2.0.3",
+    "@uppy/dropbox": "^2.0.2",
+    "@uppy/facebook": "^2.0.2",
+    "@uppy/google-drive": "^2.0.2",
+    "@uppy/instagram": "^2.0.2",
+    "@uppy/onedrive": "^2.0.2",
+    "@uppy/tus": "^2.0.2",
+    "@uppy/url": "^2.0.2",
+    "@uppy/vue": "^0.4.1",
+    "animate.css": "^3.7.2",
+    "aproba": "^2.0.0",
+    "axios": "^0.21.4",
+    "bootstrap": "^4.5.3",
+    "bootstrap-show-notification": "^1.0.11",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^2.6.5",
+    "countup.js": "^2.0.4",
+    "jquery": "^3.6.0",
+    "mdbvue": "^6.7.3",
+    "scrollreveal": "^4.0.9",
+    "set-blocking": "^2.0.0",
+    "swiper": "^7.0.7",
+    "vue": "^2.6.10",
+    "vue-animate-onscroll": "^1.0.8",
+    "vue-color": "^2.8.1",
+    "vue-colour-picker": "0.0.5",
+    "vue-cookies": "^1.7.4",
+    "vue-countup-v2": "^4.0.0",
+    "vue-js-modal": "^2.0.1",
+    "vue-masonry": "^0.13.0",
+    "vue-meta": "^2.4.0",
+    "vue-router": "^3.0.7",
+    "vue-scroll-reveal": "^1.0.11",
+    "vue-sessionstorage": "^1.0.0",
+    "vue-silentbox": "^0.1.9",
+    "vue-slick": "^1.1.15",
+    "vue2-circle-progress": "^1.2.3",
+    "vue2-flip-countdown": "^0.11.1",
+    "vue2-smooth-scroll": "^1.1.0",
+    "vuejs-dialog": "^1.4.2",
+    "vuejs-progress-bar": "^1.2.7",
+    "vuelidate": "^0.7.6",
+    "vuetify-color-input": "^1.1.0",
+    "wow.js": "^1.2.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.9.0",
+    "@vue/cli-plugin-eslint": "^3.9.0",
+    "@vue/cli-service": "^3.12.1",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^7.3.1",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "ie 11"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "ie 11"
+    ]
+  }
+}
